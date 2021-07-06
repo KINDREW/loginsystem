@@ -173,13 +173,7 @@ echo "<script>alert('Email not register with us');</script>";
 								
 								
 							</div>
-							<form name="login" action="" method="post">
-								<input type="text" class="text" name="femail" value="" placeholder="Enter your registered email" required  ><a href="#" class=" icon email"></a>
-									
-										<div class="submit three">
-											<input type="submit" name="send" onClick="myFunction()" value="Send Email" >
-										</div>
-									</form>
+							
 									</div>
 				         	</div>           	      
 				        </div>	
