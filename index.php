@@ -112,7 +112,7 @@ echo "<script>alert('Email not register with us');</script>";
 			  	  	
 				</li>
 				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><div class="top-img"><img src="images/top-lock.png" alt=""/></div><span>Login</span></li>
-				  <li class="resp-tab-item lost" aria-controls="tab_item-2" role="tab"><div class="top-img"><img src="images/top-key.png" alt=""/></div><span>Forgot Password</span></li>
+				
 				  <div class="clear"></div>
 			  </ul>		
 			  	 
