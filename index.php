@@ -108,11 +108,11 @@ echo "<script>alert('Email not register with us');</script>";
 	 <div class="sap_tabs">	
 			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 			  <ul class="resp-tabs-list">
-			  	  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><div class="top-img"><img src="images/top-note.png" alt=""/></div><span>Register</span>
+			  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><div class="top-img"><img src="images/top-note.png" alt=""/></div><span>Register</span>
 			  	  	
 				</li>
-				  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><div class="top-img"><img src="images/top-lock.png" alt=""/></div><span>Login</span></li>
-				
+				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><div class="top-img"><img src="images/top-lock.png" alt=""/></div><span>Login</span></li>
+				  <li class="resp-tab-item lost" aria-controls="tab_item-2" role="tab"><div class="top-img"><img src="images/top-key.png" alt=""/></div><span>Forgot Password</span></li>
 				  <div class="clear"></div>
 			  </ul>		
 			  	 
@@ -173,7 +173,13 @@ echo "<script>alert('Email not register with us');</script>";
 								
 								
 							</div>
-							
+							<form name="login" action="" method="post">
+								<input type="text" class="text" name="femail" value="" placeholder="Enter your registered email" required  ><a href="#" class=" icon email"></a>
+									
+										<div class="submit three">
+											<input type="submit" name="send" onClick="myFunction()" value="Send Email" >
+										</div>
+									</form>
 									</div>
 				         	</div>           	      
 				        </div>	
